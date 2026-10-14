@@ -1,0 +1,46 @@
+
+const number = 16
+console.log(number);
+
+const nnumberr = new Number(1625)
+console.log(nnumberr);
+
+console.log(nnumberr.toString());    //converted  number into string so now we can apply all properties of string in it
+console.log(nnumberr.toFixed(2));
+
+const otherNumber = 123.8966
+console.log(otherNumber.toPrecision(3));
+console.log(otherNumber.toPrecision(4));
+
+const hundreds = 100000000000000
+console.log(hundreds.toLocaleString());
+console.log(hundreds.toLocaleString('en-IN'));
+
+
+//+++++++++++++++++++++++++++ MATHS ++++++++++++++++++++++++++++++++++++
+
+ 
+console.log(Math);
+console.log(Math.abs(-7));    //changes neg into pos
+console.log(Math.round(4.6));    //rounds off normally
+console.log(Math.ceil(4.2));    //uper wali value dekhega(4 se thoda bhi jyada hua to 5 ho jaega)
+console.log(Math.floor(4.9));   //neeche wali value dekhega agar 4 hai toh 4 hi rahega
+console.log(Math.min( 4, 5, 2, 1));   //gives min value
+console.log(Math.random());  //gives random value between 0 and 1
+console.log(Math.floor(Math.random()*10) + 1);   //gives value between 1 and 9
+
+
+const min = 10
+const max = 20
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
+
+
+
+
+
+
+
+
+
+
